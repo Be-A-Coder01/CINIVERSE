@@ -1,0 +1,44 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#category {
+  border: 2px solid red;
+
+}
+
+#movieScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+#movielist {
+  /* border: 2px solid green; */
+  overflow-x: scroll;
+}
+
+#movielistcards {
+  border: 2px solid blue;
+  width: 20vw;
+}
+
+#cat {
+  /* border: 2px solid red; */
+  /* position: sticky; */
+  /* top: 120px; */
+  /* height: 90vh; */
+}
+
+#scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+#miniPosterSlider::-webkit-scrollbar {
+
+  display: none;
+
+}
