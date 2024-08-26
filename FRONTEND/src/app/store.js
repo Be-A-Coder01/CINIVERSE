@@ -3,7 +3,7 @@ import topRatedMovieSlice from "../features/topRatedMovieSlice";
 import tvShowData from "../features/tvShowsSlice";
 import poster from "../features/posterMovies";
 import currentPosterSlice from "../features/getCurrentPoster";
-import { displaySlice } from "../features/getDisplayStatus";
+import  displaySlice  from "../features/getDisplayStatus";
 
 export const store = configureStore({
   reducer: {

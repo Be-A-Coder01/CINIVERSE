@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
 const Category = ({ getCategory }) => {
+  let dispatch = useDispatch();
+
   let categoriesList = [
     "Adventure",
     "Fantacy",
@@ -25,8 +27,12 @@ const Category = ({ getCategory }) => {
     "TV Movie",
   ];
 
-  const data = useSelector((state) => state.status);
-  console.log(data, "data");
+  useEffect(() => {
+    // dispatch();
+  });
+
+  // const data = useSelector((state) => state.status);
+  // console.log(data, "data");
 
   let handleclick = (data) => {
     getCategory(data);

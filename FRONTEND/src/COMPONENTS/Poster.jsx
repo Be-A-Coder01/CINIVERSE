@@ -12,7 +12,7 @@ const Poster = ({ getMovieInfo }) => {
   };
 
   const { moviePosterData } = useSelector((state) => state.moviesPoster);
-  console.log(moviePosterData, "moviePosterData");
+  // console.log(moviePosterData, "moviePosterData");
 
   useEffect(() => {
     posterData();

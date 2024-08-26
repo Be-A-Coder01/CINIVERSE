@@ -17,8 +17,8 @@ const Moviesection = ({ getMovieInfo }) => {
 
   const { topRatedMovieData } = useSelector((state2) => state2.topMovies);
   const { tvShowData } = useSelector((state2) => state2.tvShows);
-  console.log(tvShowData, "tv shows");
-  console.log(topRatedMovieData, "movies");
+  // console.log(tvShowData, "tv shows");
+  // console.log(topRatedMovieData, "movies");
 
   return (
     <>
