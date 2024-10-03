@@ -1,4 +1,7 @@
 
+Note :- If the app is not working , reload it once.
+
+
   CINIVERSE - Movie Trailer Website
 
 Welcome to CINIVERSE, a modern and responsive movie trailer website where users can explore trailers of various movies. The project is built using React.js for the frontend, Redux for state management, and Tailwind CSS for styling. It utilizes the TMDB API for fetching movie data and the YouTube API for fetching trailers.
